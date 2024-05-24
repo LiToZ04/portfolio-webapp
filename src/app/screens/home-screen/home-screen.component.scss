@@ -1,0 +1,152 @@
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url("/assets/img/wp-home.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.nav-bar{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    background-color: rgba(145, 145, 145, 0.089);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 15px 20px;
+}
+
+.nav-bar span{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.nav-bar p{
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    padding-top: 15px;
+}
+
+.nav-izq{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 50vw;
+}
+
+.nav-der{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.nav-der p{
+    cursor: pointer;
+}
+
+.nav-izq p,span{
+    cursor: default;
+}
+
+.nav-der p:hover{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+.presentacion{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 10vw 10vh;
+}
+
+.p-izq{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.p-der{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.p-izq h1{
+    font-size: 100px;
+    margin-bottom: 10px;
+    line-height: 10vh;
+}
+
+.p-izq p{
+    line-height: 4.5vh;
+    font-size: 22px;
+}
+
+.nombre{
+    color: rgb(1, 2, 100);
+}
+
+.nombre:hover{
+    text-decoration: underline;
+}
+
+.p-der img{
+    padding-bottom: 50vh;
+    padding-right: 15vw;
+    width: 50vw;
+    height: 90vh;
+}
+
+.btn-conocer-mas {
+    background-color: rgba(145, 145, 145, 0.089);
+    color: #fff;
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-top: 2.5vh;
+    font-size: 38px;
+}
+
+
+.btn-conocer-mas:hover {
+    background-color:rgb(1, 2, 100); 
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.redes-sociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.redes-sociales svg{
+    padding-top: 2.5vh;
+    padding-right: 2vw;
+    fill: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.redes-sociales svg:hover{
+    fill:rgb(1, 2, 100);
+}
