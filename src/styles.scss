@@ -11,3 +11,15 @@ html, body {
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@font-face {
+    font-family: 'GS';
+    src: url('assets/fonts/GeneralSans_Complete/Fonts/OTF/GeneralSans-BoldItalic.otf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'GSs';
+    src: url('assets/fonts/GeneralSans_Complete/Fonts/OTF/GeneralSans-SemiboldItalic.otf');
+    font-weight: bold;
+}

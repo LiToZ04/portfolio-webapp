@@ -1,0 +1,67 @@
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #FCFFF9;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23ededed' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23fdfffe' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23efefef' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23fbfdfc' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23f2f2f2' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23f9fafa' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23f4f4f4' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23f7f8f7' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23f7f7f7' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23f5f5f5' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23f9f9f9' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23f3f3f3' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.nav-bar{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    background-color: rgba(112, 112, 112, 0.123);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 15px 20px;
+    font-family: 'GSs';
+}
+
+.nav-bar span{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.nav-bar p{
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    padding-top: 15px;
+}
+
+.nav-izq{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 50vw;
+}
+
+.nav-der{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.nav-der p{
+    cursor: pointer;
+}
+
+.nav-izq p,span{
+    cursor: default;
+}
+
+.nav-der p:hover{
+    color:  rgb(255, 136, 0);
+    font-size: 24px;
+}
+
