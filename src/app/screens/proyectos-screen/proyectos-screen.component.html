@@ -1,3 +1,17 @@
+<section class="proyectos">
+    <ng-container *ngIf="isMobile()"; else isDesktop>
+    <div class="wrapper-mobile">
+        <div class="nav-bar-mobile">
+            <p (click)="goHome()">Inicio</p>
+            <p (click)="goSobreMi()">Sobre mi</p>
+            <p (click)="goProyectos()">Proyectos</p>
+            <p (click)="goContacto()">Contacto</p>
+    </div>
+    </div>
+    </ng-container>
+
+    <ng-container #isDesktop></ng-container>
+</section>
 <div class="wrapper">
     <div class="nav-bar">
         <div class="nav-izq">

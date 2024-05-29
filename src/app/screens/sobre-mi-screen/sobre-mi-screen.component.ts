@@ -32,4 +32,12 @@ export class SobreMiScreenComponent {
   public cv(){
     alert('Aun no cargo el cv jajaja')
   }
+
+  public isMobile(){
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(navigator.userAgent)){
+      return true;
+    }else{
+      return false;
+    }
+  }
 }

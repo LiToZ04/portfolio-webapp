@@ -36,4 +36,13 @@ export class HomeScreenComponent implements OnInit{
   public func(){
     alert('Aun no se agregan redes sociales')
   }
+
+  public isMobile(){
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(navigator.userAgent)){
+      return true;
+    }else{
+      return false;
+    }
+  }
+
 }
