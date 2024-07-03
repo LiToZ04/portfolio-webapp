@@ -168,6 +168,7 @@
     background-attachment: fixed;
     background-size: cover;
     position: relative;   
+    box-sizing: border-box;
 }
 
 .nav-bar-mobile {
@@ -194,7 +195,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 3.5vw;
+    padding: 0;
 }
 
 .presentacion-mobile h1{
@@ -212,13 +213,26 @@
     color: rgb(255, 136, 0);
 }
 
-
-.p-inf-mobile img {
-    width: 100vw; 
-    height: 58vh; 
-    display: block; 
-    margin: auto; 
+.p-sup-mobile{
+    margin: 3.5vw;
 }
+
+.p-inf-mobile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.avatar {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    margin: 0; 
+}
+
 
 .btn-conocer-mas-mobile {
     background-color:rgb(255, 136, 0);
